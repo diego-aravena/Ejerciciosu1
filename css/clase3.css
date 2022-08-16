@@ -1,0 +1,73 @@
+h1 {
+    background-color: red /*!important*/;
+    color: white;
+    font-family: arial;
+}
+/* !important es para darle prioridad a un orjetivo */
+
+p{
+    background-color: red;
+    color: white;
+    font-family: arial;
+}
+
+/*
+p{
+    background-color: blue;
+}
+*/
+
+#cod0002{
+    background-color: red;
+    color: white;
+    font-family: arial;
+}
+/* tiene pioridades al ser para un solo orjetivo todos los id son com # */
+
+.azul{
+    background-color: blue;
+}
+/* es para todos aquellos que sean iguales ejemplo todos los class en html y las clases com .*/
+
+/* los datos se cargan en forma de cascada */
+
+.azul:hover{
+    background-color: red;
+}
+
+/* al pasar el maus por ariba de la palabra o orjetivo cambriaria de color */
+
+#btn{
+    border: 10px solid transparent;
+    width: 300px;
+    /* el ancho del ojetivo en este caso el booton */
+    height: 50px;
+    /* el alto del orjetivo */
+}
+
+#btn:hover{
+background-color: teal;
+    /*  */
+}
+
+#btn:focus{
+    background-color: red;
+        /* al presionar el boton se vuelve del color dicho si tengo un !impo no funciona */
+    }
+
+    .enlace{
+        color: black;
+    }
+
+    .enlace:hover{
+color: yellow;
+    }
+    .enlace:active{
+        color: blue ;
+        /* cambrias de color cuando entras a otra paquina */
+    }
+
+    .enlace:visited{
+        color: orange;
+        /* al entar a la paquina cambria de color*/
+    }
