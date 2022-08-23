@@ -20,9 +20,7 @@
         background-color: orangered;
     }
 
-    .boton:active{
-        background-color: black;
-    }
+
 
     .categorias:hover{
         background-color:#022576 ;
@@ -46,8 +44,15 @@
 
 .redes{
     width: 240px;
- 
+  
 }
+
+.logo{
+    width: 240px;
+    text-align: center;
+}
+
+
 
 .table1{
  width: 720px;
@@ -64,9 +69,11 @@
 
 .mision{
     width: 720px;
+  text-align: justify;
 }
 .vicion{
     width: 720px;
+    text-align: justify;
 }
 
 
