@@ -1,7 +1,7 @@
 .banner{
     width: 720px;
     height: 250px;
-    align-items: center;
+   
 }
 
 
@@ -18,6 +18,10 @@
 
     .boton:hover{
         background-color: orangered;
+    }
+
+    .boton:active{
+        background-color: black;
     }
 
     .categorias:hover{
@@ -58,4 +62,17 @@
 }
 
 
+.mision{
+    width: 720px;
+}
+.vicion{
+    width: 720px;
+}
+
+
+.img_corporativa {
+    width: 720px;
+    height: 400px;
+   
+}
 
