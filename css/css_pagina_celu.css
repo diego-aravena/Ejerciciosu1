@@ -1,0 +1,173 @@
+.banner{
+    width: 720px;
+    height: 250px;
+   
+}
+
+
+.boton1 {
+border: 1px solid #022576; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #022576; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+font-family: Arial ; /*tipografía texto*/
+position: absolute;
+top: 2px; left: 5px;
+}
+
+.boton2 {
+border: 1px solid #022576; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #022576; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+font-family: Arial ; /*tipografía texto*/
+position: absolute;
+top: 2px; left: 190px;
+}
+
+        
+.boton3 {
+border: 1px solid #022576; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #022576; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+font-family: Arial ; /*tipografía texto*/
+position: absolute;
+top: 2px; left: 290px;
+}
+        
+
+
+.boton1:hover{
+    background-color: rgb(20, 100, 249);
+}
+
+.boton2:hover{
+    background-color: rgb(20, 100, 249);
+}
+
+.boton3:hover{
+    background-color: rgb(20, 100, 249);
+}
+
+
+.categorias:hover{
+    background-color:#022576 ;
+    width: 200px;
+    height: 200px; 
+
+}  
+
+.categorias{
+    padding: 10px; /*espacio alrededor texto*/
+    background-color:white ;
+}
+
+
+.img1{
+    width: 200px;
+    height: 200px;
+    background-color:#022576 ;
+}
+
+
+.redes{
+    width: 240px;
+  
+}
+
+.logo{
+    width: 240px;
+    text-align: center;
+}
+
+
+
+.table1{
+ width: 720px;
+}    
+
+.table2{
+    width: 720px;
+}
+
+.body1{
+ font-family: Arial !important;
+}
+
+
+.mision{
+    width: 720px;
+  text-align: justify;
+}
+.vicion{
+    width: 720px;
+    text-align: justify;
+}
+
+
+.img_corporativa {
+    width: 720px;
+    height: 400px;
+   
+}
+
+.acorh {
+list-style: none;
+width: 100px;
+
+position: absolute;
+top: -14px; left: 40px;
+}
+
+.acorh a {
+display: block;
+padding: 11px;
+background: #022576;
+color: #ffffff;
+text-decoration: none;
+
+
+
+}
+
+ul.acorh li ul {
+max-height: 0;
+margin: 0;
+padding: 0;
+overflow: hidden;
+transition: .3s all ease-in;
+
+
+}
+
+.acorh a {
+display: block;
+padding: 11px;
+background: #022576;
+color: #ffffff;
+text-decoration: none;
+
+
+
+}
+
+ul.acorh li:hover ul {
+    max-height: 300px;
+    transition: .3s all ease-in;
+}
+
+.color_:hover{
+    background-color: rgb(20, 100, 249) !important;
+}
+.color:hover{
+    background-color: rgb(20, 100, 249) !important ;
+}
+
+.color{
+    background: rgb(9, 76, 176) !important;
+}
+
