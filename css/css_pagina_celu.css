@@ -13,7 +13,7 @@ color: #ffffff; /*color texto*/
 text-decoration: none; /*decoración texto*/
 font-family: Arial ; /*tipografía texto*/
 position: absolute;
-top: 2px; left: 5px;
+top: 2px; left: 27.5%;
 }
 
 .boton2 {
@@ -24,7 +24,7 @@ color: #ffffff; /*color texto*/
 text-decoration: none; /*decoración texto*/
 font-family: Arial ; /*tipografía texto*/
 position: absolute;
-top: 2px; left: 190px;
+top: 2px; left: 39%;
 }
 
         
@@ -36,7 +36,7 @@ color: #ffffff; /*color texto*/
 text-decoration: none; /*decoración texto*/
 font-family: Arial ; /*tipografía texto*/
 position: absolute;
-top: 2px; left: 290px;
+top: 2px; left: 90%;
 }
         
 
@@ -55,15 +55,15 @@ top: 2px; left: 290px;
 
 
 .categorias:hover{
-    background-color:#022576 ;
-    width: 200px;
-    height: 200px; 
+opacity: 60%;
+
 
 }  
 
 .categorias{
     padding: 10px; /*espacio alrededor texto*/
     background-color:white ;
+    width: 33%;
 }
 
 
@@ -75,23 +75,28 @@ top: 2px; left: 290px;
 
 
 .redes{
-    width: 240px;
+    width: 33%;
   
 }
 
 .logo{
-    width: 240px;
+    width: 25%;
     text-align: center;
 }
 
 
 
 .table1{
- width: 720px;
+ width: 100%;
+ background-color: #8fe3ff
 }    
 
 .table2{
-    width: 720px;
+    width: 100%;
+}
+
+.tablelogo{
+    width: 100%;
 }
 
 .body1{
@@ -100,27 +105,39 @@ top: 2px; left: 290px;
 
 
 .mision{
-    width: 720px;
+    width: 70%;
   text-align: justify;
+  margin-left: 15%;
 }
 .vicion{
-    width: 720px;
-    text-align: justify;
+    width: 70%;
+  text-align: justify;
+  margin-left: 15%;
 }
+
 
 
 .img_corporativa {
     width: 720px;
     height: 400px;
-   
+
 }
+
+.img_corporativa_div{
+    text-align: center;
+}
+
+.banner__{
+    text-align: center;
+}
+
+
 
 .acorh {
 list-style: none;
 width: 100px;
-
 position: absolute;
-top: -14px; left: 40px;
+top: -14px; left: 30%;
 }
 
 .acorh a {
